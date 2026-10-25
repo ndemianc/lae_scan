@@ -1,0 +1,29 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.10", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: pip install -e ".[dev,schema]"
+      - run: pytest -q
+      - name: Snapshot build is reproducible
+        run: |
+          eox-scan snapshot build --out /tmp/s1
+          eox-scan snapshot build --out /tmp/s2
+          diff /tmp/s1/manifest.json /tmp/s2/manifest.json
+      - name: Replay
+        run: eox-scan replay --snapshot /tmp/s1
