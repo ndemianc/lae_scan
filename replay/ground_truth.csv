@@ -1,0 +1,81 @@
+build_id,vendor,upstream_branch,upstream_version_string,cve_scope,fix_status,vendor_supports_branch,truth_fixed,truth_remediable,derived,eligible
+B001,PHP Group (upstream),8.5,8.5.12,both,fixed,yes,true,true,false,true
+B002,PHP Group (upstream),8.4,8.4.27,both,fixed,yes,true,true,false,true
+B003,PHP Group (upstream),8.3,8.3.36,both,fixed,yes,true,true,false,true
+B004,PHP Group (upstream),8.2,8.2.35,both,fixed,yes,true,true,false,true
+B005,PHP Group (upstream),8.6,8.6.0RC4,both,fixed,unknown,true,true,false,false
+B006,PHP Group (upstream),7.4,,both,fixed,no,true,true,false,false
+B007,PHP Group (upstream),8.0,,both,fixed,no,true,true,false,false
+B008,PHP Group (upstream),8.1,,both,fixed,no,true,true,false,false
+B009,PHP Group (upstream),7.3 and older,,both,will_not_fix,no,false,false,false,false
+B010,Debian,8.2,8.2.32,both,vulnerable,yes,false,true,false,true
+B011,Debian,8.2,8.2.35,both,fixed,yes,true,true,false,true
+B012,Debian,8.4,8.4.24,both,vulnerable,yes,false,true,false,true
+B013,Debian,8.4,8.4.27,both,fixed,yes,true,true,false,true
+B014,Debian,8.4,8.4.26,both,vulnerable,unknown,false,,false,true
+B015,Debian,8.4,8.4.27,both,fixed,unknown,true,true,false,true
+B016,Debian,8.2,,both,vulnerable,unknown,false,,false,true
+B017,Debian,7.4,7.4.33,both,unknown,unknown,,,false,true
+B018,Freexian (Debian ELTS),7.4,7.4.33,both,fixed,yes,true,true,false,true
+B019,Freexian (Debian ELTS),7.3,7.3.31,both,fixed,yes,true,true,false,true
+B020,Freexian (Debian ELTS),7.0,7.0.33,both,fixed,yes,true,true,false,true
+B021,Canonical (Ubuntu),5.5,5.5.9,both,fixed,yes,true,true,false,true
+B022,Canonical (Ubuntu),7.0,7.0.33,both,fixed,yes,true,true,false,true
+B023,Canonical (Ubuntu),7.2,7.2.24,both,fixed,yes,true,true,false,true
+B024,Canonical (Ubuntu),7.4,7.4.3,both,fixed,yes,true,true,false,true
+B025,Canonical (Ubuntu),8.1,8.1.2,both,fixed,yes,true,true,false,true
+B026,Canonical (Ubuntu),8.3,8.3.6,both,fixed,yes,true,true,false,true
+B027,Canonical (Ubuntu),8.5,8.5.4,both,fixed,yes,true,true,false,true
+B028,Canonical (Ubuntu),8.5,8.5.9,both,fixed,yes,true,true,false,true
+B029,Red Hat,8.3,8.3.36,both,fixed,yes,true,true,false,true
+B030,Red Hat,8.4,8.4.27,both,fixed,yes,true,true,false,true
+B031,Red Hat,8.0,8.0.30,both,fixed,yes,true,true,false,true
+B032,Red Hat,8.2,8.2.35,both,fixed,yes,true,true,false,true
+B033,Red Hat,8.3,8.3.36,both,fixed,yes,true,true,false,true
+B034,Red Hat,8.4,,both,pending,yes,false,true,false,true
+B035,Red Hat,8.2,8.2.35,both,fixed,yes,true,true,false,true
+B036,Red Hat,7.4,7.4.33,both,fixed,yes,true,true,false,true
+B037,Red Hat,,,109618,unknown,unknown,,,false,false
+B038,Red Hat,,,109619,not_affected,unknown,,,false,false
+B039,Red Hat,,,109618,unknown,unknown,,,false,false
+B040,Red Hat,,,109619,not_affected,unknown,,,false,false
+B041,Red Hat,8.5,8.5.12,both,fixed,yes,true,true,false,true
+B042,SUSE,7.4,7.4.33,both,fixed,yes,true,true,false,true
+B043,SUSE,8.0,8.0.30,both,fixed,yes,true,true,false,true
+B044,SUSE,7.4,7.4.33,both,fixed,yes,true,true,false,true
+B045,SUSE,8.0,8.0.30,both,fixed,yes,true,true,false,true
+B046,SUSE,7.4,7.4.33,both,fixed,yes,true,true,false,true
+B047,SUSE,8.2,8.2.35,both,fixed,yes,true,true,false,true
+B048,SUSE,7.4,7.4.33,both,fixed,yes,true,true,false,true
+B049,SUSE,8.3,8.3.36,both,fixed,yes,true,true,false,true
+B050,SUSE,7.4,7.4.33,both,fixed,yes,true,true,false,true
+B051,SUSE,8.4,8.4.27,both,fixed,yes,true,true,false,true
+B052,SUSE (openSUSE),8.2,8.2.35,both,fixed,unknown,true,true,false,true
+B053,SUSE (openSUSE),8.0,8.0.30,both,fixed,unknown,true,true,false,true
+B054,SUSE (openSUSE),7.4,7.4.33,both,fixed,unknown,true,true,false,true
+B055,SUSE (openSUSE),8.5,8.5.12,both,fixed,unknown,true,true,false,true
+B056,Alpine Linux,8.3,8.3.36,both,fixed,unknown,true,true,true,true
+B057,Alpine Linux,8.4,8.4.27,both,fixed,unknown,true,true,true,true
+B058,Alpine Linux,8.5,8.5.12,both,fixed,unknown,true,true,true,true
+B059,Alpine Linux,8.3,8.3.36,both,fixed,unknown,true,true,true,true
+B060,Alpine Linux,8.4,8.4.27,both,fixed,unknown,true,true,true,true
+B061,Alpine Linux,8.5,8.5.12,both,fixed,unknown,true,true,true,true
+B062,Alpine Linux,8.2,8.2.34,both,unknown,unknown,,,false,true
+B063,Alpine Linux,8.1,8.1.34,both,unknown,unknown,,,false,true
+B064,Docker Official Images,8.5,8.5.12,both,fixed,yes,true,true,true,true
+B065,Docker Official Images,8.4,8.4.27,both,fixed,yes,true,true,true,true
+B066,Docker Official Images,8.3,8.3.36,both,fixed,yes,true,true,true,true
+B067,Docker Official Images,8.2,8.2.35,both,fixed,yes,true,true,true,true
+B068,GetPageSpeed,5.6,5.6.40,both,fixed,yes,true,true,false,true
+B069,GetPageSpeed,7.0,7.0.33,both,fixed,yes,true,true,false,true
+B070,GetPageSpeed,7.3,7.3.33,both,fixed,yes,true,true,false,true
+B071,GetPageSpeed,8.0,8.0.30,both,fixed,yes,true,true,false,true
+B072,GetPageSpeed,8.4,8.4.27,both,fixed,yes,true,true,false,true
+B073,Remi Collet (remirepo),8.5,8.5.12,both,fixed,yes,true,true,false,true
+B074,Remi Collet (remirepo),8.4,8.4.27,both,fixed,yes,true,true,false,true
+B075,Remi Collet (remirepo),8.3,8.3.36,both,fixed,yes,true,true,false,true
+B076,Remi Collet (remirepo),8.2,8.2.35,both,fixed,yes,true,true,false,true
+B077,Remi Collet (remirepo),8.1,,both,unknown,no,,,false,true
+B078,Remi Collet (remirepo),8.0,8.0.30,both,vulnerable,no,false,false,false,true
+B079,Remi Collet (remirepo),7.4,,both,vulnerable,no,false,false,false,true
+B080,Remi Collet (remirepo),8.1,,both,vulnerable,no,false,false,false,true

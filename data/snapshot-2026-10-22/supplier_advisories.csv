@@ -1,0 +1,56 @@
+cve,family,distro,package,upstream_branch,fixed_version,status,advisory,source_url,retrieved
+PHP2Shell,debian,debian-12,php8.2,8.2,8.2.35-1~deb12u1,fixed,DLA-4848-1,https://security-tracker.debian.org/tracker/CVE-2026-109618 ; https://security-tracker.debian.org/tracker/CVE-2026-109619 ; https://www.debian.org/lts/security/,2026-10-22
+PHP2Shell,debian,debian-13,php8.4,8.4,8.4.27-1~deb13u1,fixed,DSA-6574-1,https://security-tracker.debian.org/tracker/CVE-2026-109618 ; https://security-tracker.debian.org/tracker/CVE-2026-109619,2026-10-22
+PHP2Shell,debian,debian-14,php8.4,8.4,8.4.27-1,affected,,https://security-tracker.debian.org/tracker/CVE-2026-109618 ; https://security-tracker.debian.org/tracker/CVE-2026-109619,2026-10-22
+PHP2Shell,debian,debian-sid,php8.4,8.4,8.4.27-1,fixed,,https://security-tracker.debian.org/tracker/CVE-2026-109618 ; https://security-tracker.debian.org/tracker/CVE-2026-109619,2026-10-22
+PHP2Shell,debian,debian-sid,php8.2,8.2,,affected,,https://security-tracker.debian.org/tracker/CVE-2026-109618 ; https://security-tracker.debian.org/tracker/CVE-2026-109619,2026-10-22
+PHP2Shell,freexian-elts,debian-11,php7.4,7.4,7.4.33-1+deb11u14,fixed,ELA-1853-1,https://www.freexian.com/lts/extended/updates/ela-1853-1-php7.4/,2026-10-22
+PHP2Shell,freexian-elts,debian-10,php7.3,7.3,7.3.31-1~deb10u16,fixed,ELA-1854-1,https://www.freexian.com/lts/extended/updates/ela-1854-1-php7.3/,2026-10-22
+PHP2Shell,freexian-elts,debian-9,php7.0,7.0,7.0.33-0+deb9u26,fixed,ELA-1855-1,https://www.freexian.com/lts/extended/updates/ela-1855-1-php7.0/,2026-10-22
+PHP2Shell,ubuntu,ubuntu-14.04,php5,5.5,5.5.9+dfsg-1ubuntu4.29+esm18,fixed,USN-8948-2,https://ubuntu.com/security/CVE-2026-109618 ; https://ubuntu.com/security/CVE-2026-109619 ; https://ubuntu.com/security/notices/USN-8948-2,2026-10-22
+PHP2Shell,ubuntu,ubuntu-16.04,php7.0,7.0,7.0.33-0ubuntu0.16.04.16+esm22,fixed,USN-8948-2,https://ubuntu.com/security/CVE-2026-109618 ; https://ubuntu.com/security/CVE-2026-109619 ; https://ubuntu.com/security/notices/USN-8948-2,2026-10-22
+PHP2Shell,ubuntu,ubuntu-18.04,php7.2,7.2,7.2.24-0ubuntu0.18.04.17+esm14,fixed,USN-8948-2,https://ubuntu.com/security/CVE-2026-109618 ; https://ubuntu.com/security/CVE-2026-109619 ; https://ubuntu.com/security/notices/USN-8948-2,2026-10-22
+PHP2Shell,ubuntu,ubuntu-20.04,php7.4,7.4,7.4.3-4ubuntu2.29+esm5,fixed,USN-8948-2,https://ubuntu.com/security/CVE-2026-109618 ; https://ubuntu.com/security/CVE-2026-109619 ; https://ubuntu.com/security/notices/USN-8948-2,2026-10-22
+PHP2Shell,ubuntu,ubuntu-22.04,php8.1,8.1,8.1.2-1ubuntu2.28,fixed,USN-8948-1,https://ubuntu.com/security/CVE-2026-109618 ; https://ubuntu.com/security/CVE-2026-109619 ; https://ubuntu.com/security/notices/USN-8948-1,2026-10-22
+PHP2Shell,ubuntu,ubuntu-24.04,php8.3,8.3,8.3.6-0ubuntu0.24.04.13,fixed,USN-8948-1,https://ubuntu.com/security/CVE-2026-109618 ; https://ubuntu.com/security/CVE-2026-109619 ; https://ubuntu.com/security/notices/USN-8948-1,2026-10-22
+PHP2Shell,ubuntu,ubuntu-26.04,php8.5,8.5,8.5.4-0ubuntu1.5,fixed,USN-8948-1,https://ubuntu.com/security/CVE-2026-109618 ; https://ubuntu.com/security/CVE-2026-109619 ; https://ubuntu.com/security/notices/USN-8948-1,2026-10-22
+PHP2Shell,ubuntu,ubuntu-26.10,php8.5,8.5,8.5.9-0ubuntu2.1,fixed,USN-8948-1,https://ubuntu.com/security/CVE-2026-109618 ; https://ubuntu.com/security/CVE-2026-109619 ; https://ubuntu.com/security/notices/USN-8948-1,2026-10-22
+PHP2Shell,redhat,rhel-10,php,8.3,8.3.36-1.el10_2,fixed,RHSA-2026:87070,https://access.redhat.com/errata/RHSA-2026:87070 ; https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json ; https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109619.json,2026-10-22
+PHP2Shell,redhat,rhel-10,php8.4,8.4,8.4.27-1.el10_2,fixed,RHSA-2026:87071,https://access.redhat.com/errata/RHSA-2026:87071 ; https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json ; https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109619.json,2026-10-22
+PHP2Shell,redhat,rhel-9,php,8.0,8.0.30-8.el9_8.1,fixed,RHSA-2026:87151,https://access.redhat.com/errata/RHSA-2026:87151 ; https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json ; https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109619.json,2026-10-22
+PHP2Shell,redhat,rhel-9,php,8.2,8.2.35-1.module+el9.8.0+25111+a1450321,fixed,RHSA-2026:87072,https://access.redhat.com/errata/RHSA-2026:87072 ; https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json ; https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109619.json,2026-10-22
+PHP2Shell,redhat,rhel-9,php,8.3,8.3.36-1.module+el9.8.0+25109+6886e21a,fixed,RHSA-2026:87079,https://access.redhat.com/errata/RHSA-2026:87079 ; https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json ; https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109619.json,2026-10-22
+PHP2Shell,redhat,rhel-9,php,8.4,,pending,,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json ; https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109619.json,2026-10-22
+PHP2Shell,redhat,rhel-8,php,8.2,8.2.35-1.module+el8.10.0+25110+f67151d2,fixed,RHSA-2026:87073,https://access.redhat.com/errata/RHSA-2026:87073 ; https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json ; https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109619.json,2026-10-22
+PHP2Shell,redhat,rhel-8,php,7.4,7.4.33-8.module+el8.10.0+25117+30337cca,fixed,RHSA-2026:87080,https://access.redhat.com/errata/RHSA-2026:87080 ; https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json ; https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109619.json,2026-10-22
+CVE-2026-109618,redhat,rhel-7,php,5.4,,under_investigation,,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json,2026-10-22
+CVE-2026-109619,redhat,rhel-7,php,5.4,,not_affected,,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109619.json,2026-10-22
+CVE-2026-109618,redhat,rhel-6,php,5.3,,under_investigation,,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json,2026-10-22
+CVE-2026-109619,redhat,rhel-6,php,5.3,,not_affected,,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109619.json,2026-10-22
+PHP2Shell,redhat,rhel-hummingbird,php-main,8.5,8.5.12-1.hum1,fixed,RHSA-2026:87414,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109618.json ; https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109619.json,2026-10-22
+PHP2Shell,suse,sles-12.5,php74,7.4,7.4.33-1.74.1,fixed,SUSE-SU-2026:4870-1,https://www.suse.com/support/update/announcement/2026/suse-su-20264870-1/ ; https://www.suse.com/security/cve/CVE-2026-109619.html,2026-10-22
+PHP2Shell,suse,sles-15.4,php8,8.0,8.0.30-150400.4.80.1,fixed,SUSE-SU-2026:4852-1,https://www.suse.com/support/update/announcement/2026/suse-su-20264852-1/ ; https://www.suse.com/security/cve/CVE-2026-109619.html,2026-10-22
+PHP2Shell,suse,sles-15.4,php7,7.4,7.4.33-150400.4.81.1,fixed,SUSE-SU-2026:4853-1,https://www.suse.com/support/update/announcement/2026/suse-su-20264853-1/ ; https://www.suse.com/security/cve/CVE-2026-109619.html,2026-10-22
+PHP2Shell,suse,sles-15.5,php8,8.0,8.0.30-150400.4.80.1,fixed,SUSE-SU-2026:4852-1,https://www.suse.com/support/update/announcement/2026/suse-su-20264852-1/ ; https://www.suse.com/security/cve/CVE-2026-109619.html,2026-10-22
+PHP2Shell,suse,sles-15.5,php7,7.4,7.4.33-150400.4.81.1,fixed,SUSE-SU-2026:4853-1,https://www.suse.com/support/update/announcement/2026/suse-su-20264853-1/ ; https://www.suse.com/security/cve/CVE-2026-109619.html,2026-10-22
+PHP2Shell,suse,sles-15.6,php8,8.2,8.2.35-150600.3.39.1,fixed,SUSE-SU-2026:4843-1,https://www.suse.com/support/update/announcement/2026/suse-su-20264843-1/ ; https://www.suse.com/security/cve/CVE-2026-109619.html,2026-10-22
+PHP2Shell,suse,sles-15.6,php7,7.4,7.4.33-150400.4.81.1,fixed,SUSE-SU-2026:4853-1,https://www.suse.com/support/update/announcement/2026/suse-su-20264853-1/ ; https://www.suse.com/security/cve/CVE-2026-109619.html,2026-10-22
+PHP2Shell,suse,sles-15.7,php8,8.3,8.3.36-150700.3.24.1,fixed,SUSE-SU-2026:4844-1,https://www.suse.com/support/update/announcement/2026/suse-su-20264844-1/ ; https://www.suse.com/security/cve/CVE-2026-109618.html,2026-10-22
+PHP2Shell,suse,sles-15.7,php7,7.4,7.4.33-150400.4.81.1,fixed,SUSE-SU-2026:4853-1,https://www.suse.com/support/update/announcement/2026/suse-su-20264853-1/ ; https://www.suse.com/security/cve/CVE-2026-109618.html,2026-10-22
+PHP2Shell,suse,sles-16.0,php8,8.4,8.4.27-160000.1.1,fixed,,https://www.suse.com/security/cve/CVE-2026-109618.html,2026-10-22
+PHP2Shell,opensuse,opensuse-leap-15.6,php8,8.2,8.2.35-150600.3.39.1,fixed,SUSE-SU-2026:4843-1,https://www.suse.com/support/update/announcement/2026/suse-su-20264843-1/,2026-10-22
+PHP2Shell,opensuse,opensuse-leap-15.4,php8,8.0,8.0.30-150400.4.80.1,fixed,SUSE-SU-2026:4852-1,https://www.suse.com/support/update/announcement/2026/suse-su-20264852-1/,2026-10-22
+PHP2Shell,opensuse,opensuse-leap-15.4,php7,7.4,7.4.33-150400.4.81.1,fixed,SUSE-SU-2026:4853-1,https://www.suse.com/support/update/announcement/2026/suse-su-20264853-1/,2026-10-22
+PHP2Shell,opensuse,opensuse-tumbleweed,php8,8.5,8.5.12-1.1,fixed,openSUSE-Tumbleweed-2026-12219,https://www.suse.com/security/cve/CVE-2026-109618.html ; https://www.suse.com/security/cve/CVE-2026-109619.html,2026-10-22
+PHP2Shell,getpagespeed,centos-7,php,5.6,5.6.40-42.el7,fixed,,https://www.getpagespeed.com/server-setup/php/php2shell-on-centos-7/amp,2026-10-22
+PHP2Shell,getpagespeed,centos-7,php,7.0,7.0.33-43.el7,fixed,,https://www.getpagespeed.com/server-setup/php/php2shell-on-centos-7/amp,2026-10-22
+PHP2Shell,getpagespeed,centos-7,php73-php,7.3,7.3.33-23.el7,fixed,,https://www.getpagespeed.com/server-setup/php/php2shell-on-centos-7/amp,2026-10-22
+PHP2Shell,getpagespeed,centos-7,php,8.0,8.0.30-22.el7,fixed,,https://www.getpagespeed.com/server-setup/php/php2shell-on-centos-7/amp,2026-10-22
+PHP2Shell,getpagespeed,centos-7,php,8.4,8.4.27-1.el7,fixed,,https://www.getpagespeed.com/server-setup/php/php2shell-on-centos-7/amp,2026-10-22
+PHP2Shell,remi,rhel-9,php,8.5,8.5.12,fixed,,https://blog.remirepo.net/feed/atom (entry: https://blog.remirepo.net/post/2026/10/22/PHP-version-8.2.35-8.3.36-8.4.27-8.5.12),2026-10-22
+PHP2Shell,remi,rhel-9,php,8.4,8.4.27,fixed,,https://blog.remirepo.net/feed/atom (entry: https://blog.remirepo.net/post/2026/10/22/PHP-version-8.2.35-8.3.36-8.4.27-8.5.12),2026-10-22
+PHP2Shell,remi,rhel-9,php,8.3,8.3.36,fixed,,https://blog.remirepo.net/feed/atom (entry: https://blog.remirepo.net/post/2026/10/22/PHP-version-8.2.35-8.3.36-8.4.27-8.5.12),2026-10-22
+PHP2Shell,remi,rhel-9,php,8.2,8.2.35,fixed,,https://blog.remirepo.net/feed/atom (entry: https://blog.remirepo.net/post/2026/10/22/PHP-version-8.2.35-8.3.36-8.4.27-8.5.12),2026-10-22
+PHP2Shell,remi,centos-7,php,8.0,,no_fix,,https://www.getpagespeed.com/server-setup/php/php2shell-on-centos-7/amp,2026-10-22
+PHP2Shell,remi,centos-7,php,7.4,,no_fix,,https://www.getpagespeed.com/server-setup/php/php2shell-on-centos-7/amp,2026-10-22
+PHP2Shell,remi,centos-7,php,8.1,,no_fix,,https://www.getpagespeed.com/server-setup/php/php2shell-on-centos-7/amp,2026-10-22

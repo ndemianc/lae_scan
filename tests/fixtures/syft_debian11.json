@@ -1,0 +1,23 @@
+{
+  "artifacts": [
+    {"id": "a1", "name": "php7.4-cli", "version": "7.4.33-1+deb11u10", "type": "deb",
+     "purl": "pkg:deb/debian/php7.4-cli@7.4.33-1%2Bdeb11u10?arch=amd64&upstream=php7.4&distro=debian-11",
+     "metadataType": "dpkg-db-entry",
+     "metadata": {"package": "php7.4-cli", "source": "php7.4", "version": "7.4.33-1+deb11u10"}},
+    {"id": "a2", "name": "php7.4-fpm", "version": "7.4.33-1+deb11u10", "type": "deb",
+     "purl": "pkg:deb/debian/php7.4-fpm@7.4.33-1%2Bdeb11u10?arch=amd64&upstream=php7.4&distro=debian-11",
+     "metadataType": "dpkg-db-entry",
+     "metadata": {"package": "php7.4-fpm", "source": "php7.4", "version": "7.4.33-1+deb11u10"}},
+    {"id": "a3", "name": "php-common", "version": "2:76", "type": "deb",
+     "purl": "pkg:deb/debian/php-common@2:76?arch=all&upstream=php-defaults&distro=debian-11",
+     "metadataType": "dpkg-db-entry",
+     "metadata": {"package": "php-common", "source": "php-defaults", "version": "2:76"}},
+    {"id": "a4", "name": "bash", "version": "5.1-2+deb11u1", "type": "deb",
+     "purl": "pkg:deb/debian/bash@5.1-2%2Bdeb11u1?arch=amd64&distro=debian-11",
+     "metadataType": "dpkg-db-entry", "metadata": {"package": "bash", "version": "5.1-2+deb11u1"}},
+    {"id": "a5", "name": "php-cli", "version": "8.1.2", "type": "binary",
+     "purl": "pkg:generic/php-cli@8.1.2", "metadataType": "binary-signature", "metadata": {}}
+  ],
+  "distro": {"id": "debian", "versionID": "11", "prettyName": "Debian GNU/Linux 11 (bullseye)"},
+  "schema": {"version": "16.0.0", "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.0.0.json"}
+}

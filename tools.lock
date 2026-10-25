@@ -1,0 +1,18 @@
+{
+  "_comment": "Pinned external tools. eox-scan refuses to run a binary whose SHA-256 is not listed here unless --allow-unpinned is given. Fill version and hashes in Phase 0 from the official release checksums (syft_<v>_checksums.txt, xeol_<v>_checksums.txt) for each platform you use.",
+  "syft": {
+    "version": "1.55.0",
+    "source": "https://github.com/anchore/syft/releases",
+    "sha256": {
+      "darwin_arm64": "bcee50644b22c754432eab51dd723b995b197aead7fc9760724bebe6ce3c61e2"
+    }
+  },
+  "xeol": {
+    "version": "0.10.8",
+    "source": "https://github.com/xeol-io/xeol/releases",
+    "sha256": {
+      "darwin_arm64": "c778a2424f8b41cf5019fbddfa0e2fd8c1bc04188501ca3d2e21bf6eeab8818d"
+    },
+    "notes": "Run with no API key. eox-scan sets XEOL_DB_CACHE_DIR to the snapshot and disables DB auto-update, DB age validation and update checks."
+  }
+}

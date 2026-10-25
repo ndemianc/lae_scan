@@ -1,0 +1,12 @@
+vendor,fix_status_mr,fix_status_format,lifecycle_mr,lifecycle_format,openeox,source
+PHP Group (upstream),yes,GitHub Security Advisories (OSV-compatible),partial,active.php JSON lists active branches without EoL dates; dates only in HTML table,no,https://www.php.net/releases/active.php
+Debian,yes,security-tracker JSON,yes,distro-info-data debian.csv (eol; eol-lts; eol-elts),no,https://security-tracker.debian.org/tracker/data/json
+Freexian (Debian ELTS),no,HTML advisories (ELA),no,HTML; ELTS dates appear only in Debian distro-info-data,no,https://www.freexian.com/lts/extended/
+Canonical (Ubuntu),yes,CVE JSON / OVAL / OSV,yes,distro-info-data ubuntu.csv (eol; eol-esm; eol-legacy),no,https://ubuntu.com/security/CVE-2026-109618
+Red Hat,yes,CSAF/VEX and security data API,yes,Product Life Cycle Data API,no,https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2026-109619.json
+SUSE,yes,CSAF/VEX,no,HTML lifecycle pages (no documented feed found),no,https://www.suse.com/support/security/csaf/
+SUSE (openSUSE),yes,CSAF/VEX,no,HTML (no documented feed found),no,https://www.suse.com/support/security/csaf/
+Alpine Linux,yes,secdb JSON,yes,releases.json (eol_date per branch and per repository),no,https://alpinelinux.org/releases.json
+Docker Official Images,no,none (tags only),no,none,no,https://hub.docker.com/_/php
+GetPageSpeed,no,HTML article,no,none,no,https://www.getpagespeed.com/server-setup/php/php2shell-on-centos-7/amp
+Remi Collet (remirepo),no,HTML blog,no,HTML blog,no,https://blog.remirepo.net/

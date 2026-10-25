@@ -1,0 +1,17 @@
+{
+  "artifacts": [
+    {"id": "r1", "name": "php", "version": "8.0.30-6.el7.remi", "type": "rpm",
+     "purl": "pkg:rpm/centos/php@8.0.30-6.el7.remi?arch=x86_64&distro=centos-7",
+     "metadataType": "rpm-db-entry",
+     "metadata": {"name": "php", "version": "8.0.30", "release": "6.el7.remi",
+                  "vendor": "Remi's RPM repository <https://rpms.remirepo.net/>",
+                  "sourceRpm": "php-8.0.30-6.el7.remi.src.rpm"}},
+    {"id": "r2", "name": "php", "version": "8.0.30-22.el7", "type": "rpm",
+     "purl": "pkg:rpm/centos/php@8.0.30-22.el7?arch=x86_64&distro=centos-7",
+     "metadataType": "rpm-db-entry",
+     "metadata": {"name": "php", "version": "8.0.30", "release": "22.el7", "vendor": "GetPageSpeed",
+                  "sourceRpm": "php-8.0.30-22.el7.src.rpm"}}
+  ],
+  "distro": {"id": "centos", "versionID": "7"},
+  "schema": {"version": "16.0.0", "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.0.0.json"}
+}
